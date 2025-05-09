@@ -1,12 +1,40 @@
-# React + Vite
+# 📅 Event Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web para crear, editar y gestionar eventos personales o de trabajo, desarrollada con React y Vite. Incluye recordatorios por notificación, filtrado por categorías, y una vista de calendario.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ **React 18**
+- ⚡ **Vite** para empaquetado y desarrollo rápido
+- 🎨 **TailwindCSS** para estilos modernos y responsivos
+- 🧱 **React Context + useReducer** para gestión global de estado
+- 🧪 **Vitest + Testing Library** para pruebas unitarias
+- 📆 **React Calendar** para selección visual de fechas
+- 📦 **uuid** para generar IDs únicos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔑 Funcionalidades Principales
+
+- **📝 Crear, editar y eliminar eventos**
+- **⏰ Recordatorios programables** con notificaciones del navegador
+- **📊 Filtrado por categorías**
+- **📆 Vista de calendario interactiva**
+- **📂 Persistencia local** usando `localStorage`
+- **✅ Pruebas unitarias** para componentes clave (`EventForm`, `ReminderAlert`, etc.)
+
+---
+
+## 🚀 Instalación
+
+```bash
+# Clona el repositorio
+git clone https://github.com/zmenendez/Proyecto-Final-ADA.git
+
+# Instala las dependencias
+npm install
+
+# Corre la aplicación
+npm run dev
